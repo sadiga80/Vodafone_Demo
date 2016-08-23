@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg">
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true">
+
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp">
+
+        <ImageButton
+            android:id="@+id/mpesa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mpesa"
+            android:background="@android:color/transparent"
+            android:layout_margin="5dp" />
+
+        <ImageButton
+            android:id="@+id/paytm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/paytm"
+            android:background="@android:color/transparent"
+            android:layout_margin="5dp" />
+        <ImageButton
+            android:id="@+id/creditcard"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/credit"
+            android:background="@android:color/transparent"
+            android:layout_margin="5dp" />
+        <ImageButton
+            android:id="@+id/payu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/payu"
+            android:background="@android:color/transparent"
+            android:layout_margin="5dp" />
+    </TableRow>
+
+
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+        <ImageButton
+            android:id="@+id/aexpress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/express"
+            android:background="@android:color/transparent"
+            android:layout_margin="5dp" />
+
+        <ImageButton
+            android:id="@+id/netbanking"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/net"
+            android:background="@android:color/transparent"
+            android:layout_margin="5dp" />
+        <ImageButton
+            android:id="@+id/master"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/master"
+            android:background="@android:color/transparent"
+            android:layout_margin="5dp" />
+        <ImageButton
+            android:id="@+id/bcoin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bit"
+            android:background="@android:color/transparent"
+            android:layout_margin="5dp" />
+    </TableRow>
+    </TableLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:id="@+id/homebackhome"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="#d32f2f"
+        android:textColor="#fafafa" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Choose a Payment Option"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="78dp"
+        android:textColor="#f5f5f5"
+        android:elevation="2dp"
+        android:background="@drawable/myrect"/>
+
+</RelativeLayout>

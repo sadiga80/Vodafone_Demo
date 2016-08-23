@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:layout_marginTop="50dp"
+    android:background="#40c4ff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+<android.support.v7.widget.CardView
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:layout_margin="8dp"
+ android:background="#40c4ff"
+   >
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#40c4ff">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:padding="8dp"
+            android:text="Target Distance:"
+            android:textColor="#222"
+            android:textStyle="bold"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Target Time:"
+            android:id="@+id/textView2"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:textColor="#222"
+            android:textSize="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView3"
+            android:layout_toEndOf="@+id/textView3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100K/ms"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:textSize="10dp"
+            android:textColor="#fde581"
+            android:id="@+id/textView3"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/title"
+            android:layout_toEndOf="@+id/title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.0Hrs"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:textColor="#fde581"
+            android:id="@+id/textView4"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView2"
+            android:layout_toEndOf="@+id/textView2" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="43dp">
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/circular"
+            android:secondaryProgress="0"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <TextView
+            android:id="@+id/txtProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_alignTop="@+id/progressBar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:layout_alignRight="@+id/progressBar"
+            android:layout_alignEnd="@+id/progressBar" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/progressBar"
+                android:background="#7ba3b6"
+                android:text="Cycling"
+                android:id="@+id/button2"
+                android:paddingRight="4dp"/>
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="0"
+                android:progressDrawable="@drawable/circular"
+                android:secondaryProgress="0"
+                android:layout_above="@+id/button2"
+                android:layout_toRightOf="@+id/button2"
+                android:layout_toEndOf="@+id/button2" />
+            <TextView
+                android:id="@+id/txtProgress1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textAlignment="center"
+                android:layout_centerVertical="true"
+                android:layout_alignLeft="@+id/progressBar1"
+                android:layout_alignStart="@+id/progressBar1"
+                android:layout_alignRight="@+id/progressBar1"
+                android:layout_alignEnd="@+id/progressBar1" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="4dp"
+                android:text="Running"
+                android:id="@+id/button3"
+                android:layout_below="@+id/progressBar1"
+                android:layout_toRightOf="@+id/button2"
+                android:layout_toEndOf="@+id/button2"
+                android:background="#7ba3b6"/>
+            <ProgressBar
+                android:id="@+id/progressBar2"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="0"
+                android:progressDrawable="@drawable/circular"
+                android:secondaryProgress="0"
+                android:layout_alignTop="@+id/progressBar1"
+                android:layout_toRightOf="@+id/progressBar1"
+                android:layout_toEndOf="@+id/progressBar1" />
+            <TextView
+                android:id="@+id/txtProgress3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textAlignment="center"
+                android:layout_alignTop="@+id/txtProgress"
+                android:layout_toRightOf="@+id/button3"
+                android:layout_alignRight="@+id/progressBar2"
+                android:layout_alignEnd="@+id/progressBar2" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#7ba3b6"
+                android:text="Yoga"
+                android:id="@+id/button4"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/button3"
+                android:layout_toEndOf="@+id/button3"
+                android:layout_alignTop="@+id/button3"
+                android:paddingRight="4dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+</RelativeLayout>

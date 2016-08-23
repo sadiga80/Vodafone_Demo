@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Usage pattern"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="55dp"
+        android:textColor="#f5f5f5" />
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/chart1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/textView3"
+        android:layout_above="@+id/textView4"
+        android:background="#fbf8f8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Offers for you"
+        android:id="@+id/textView4"
+        android:layout_marginBottom="148dp"
+        android:textColor="#f5f5f5"
+        android:layout_above="@+id/buttonbk"
+        android:layout_alignStart="@+id/textView7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="1. E599"
+        android:id="@+id/textView5"
+        android:textColor="#f5f5f5"
+        android:layout_marginTop="39dp"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:id="@+id/buttonbk"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="#d32f2f"
+        android:textColor="#fafafa" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="2.5GB Data @349"
+        android:id="@+id/textView6"
+        android:textColor="#eeeeee"
+        android:layout_below="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="3.500 min Booster @399"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/textView6"
+        android:layout_alignStart="@+id/textView3"
+        android:textColor="#f5f5f5" />
+
+</RelativeLayout>

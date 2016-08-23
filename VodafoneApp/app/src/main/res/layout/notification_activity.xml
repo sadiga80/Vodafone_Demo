@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="256dp"
+        android:src="@drawable/wallet" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:id="@+id/buttonhomeback"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="#d32f2f"
+        android:textColor="#fafafa" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Bill Details"
+        android:id="@+id/button2"
+        android:layout_above="@+id/buttonhomeback"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:background="@color/button_material_dark"
+        android:textAlignment="center" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Pay"
+        android:id="@+id/pay"
+        android:layout_alignTop="@+id/button2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="50dp"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:background="@color/button_material_dark"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="89dp"
+        android:text="Your bill for current month is:     $820"
+        android:textColor="@color/abc_secondary_text_material_dark"
+        android:editable="false"
+        android:elevation="2dp"
+        android:background="@drawable/myrect"/>
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="MyPlan               >"
+        android:background="#42A5F5"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="My Last Bill       >"
+        android:background="#42A5F5"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Bill Due Date      >"
+        android:background="#42A5F5"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Vas Service         >"
+        android:background="#42A5F5"
+        android:layout_marginBottom="10dp"/>
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+
+      >
+      <Button
+
+          android:layout_alignParentBottom="true"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Home"
+          android:id="@+id/buttonhomeback"
+
+          android:background="#d32f2f"
+          android:textColor="#fafafa"
+          android:layout_alignParentEnd="true"
+          android:layout_alignParentStart="true" />
+  </RelativeLayout>
+
+</LinearLayout>

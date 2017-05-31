@@ -28,7 +28,7 @@ platform :android do
   desc "Submit a new Beta Build to Crashlytics Beta"
   lane :beta do
     gradle(task: "assembleRelease")
-    crashlytics (emails: ['santhosh.adiga@gmail.com'])
+    crashlytics (emails: ['santhosh.adiga@accionlabs.com'])
 
     # sh "your_script.sh"
     # You can also use other beta testing services here

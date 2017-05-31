@@ -15,6 +15,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ImageButton inbox;
+
+
+
+
+
         ImageButton address;
         ImageButton notification;
         ImageButton chat;

@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 /**
- * Created by Ravichandra on 7/29/2016.
+ * Created by Santhosh Adiga U on 7/29/2016.
  */
 public class PartenerSpace  extends Activity {
 

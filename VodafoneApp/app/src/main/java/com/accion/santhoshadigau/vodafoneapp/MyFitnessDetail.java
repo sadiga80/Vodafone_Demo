@@ -1,7 +1,7 @@
 package com.accion.santhoshadigau.vodafoneapp;
 
 /**
- * Created by Ravichandra on 8/2/2016.
+ * Created by Santhosh Adiga U on 8/2/2016.
  */
 import android.app.TabActivity;
 import android.content.Intent;

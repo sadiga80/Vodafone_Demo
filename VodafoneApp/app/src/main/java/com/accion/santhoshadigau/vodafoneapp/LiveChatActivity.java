@@ -77,7 +77,7 @@ public class LiveChatActivity extends AppCompatActivity {
 
     private boolean sendChatMessage() {
         chatArrayAdapter.add(new LiveChatMessage(side, chatText.getText().toString()));
-        chatText.setText("");
+        chatText.setText("Hi");
         side = !side;
         return true;
     }

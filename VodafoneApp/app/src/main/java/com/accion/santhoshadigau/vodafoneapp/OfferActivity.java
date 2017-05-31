@@ -73,12 +73,12 @@ public class OfferActivity extends AppCompatActivity {
 
     public void AddValuesToBarEntryLabels(){
 
-        BarEntryLabels.add("1GB");
-        BarEntryLabels.add("2GB");
-        BarEntryLabels.add("3GB");
-        BarEntryLabels.add("5GB");
-        BarEntryLabels.add("4GB");
-        BarEntryLabels.add("1.5GB");
+        BarEntryLabels.add("10GB");
+        BarEntryLabels.add("20GB");
+        BarEntryLabels.add("30GB");
+        BarEntryLabels.add("50GB");
+        BarEntryLabels.add("40GB");
+        BarEntryLabels.add("15GB");
 
     }
     @Override

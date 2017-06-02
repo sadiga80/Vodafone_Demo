@@ -45,11 +45,11 @@ fastlane android playstore
 fastlane android beta
 ```
 Submit a new Beta Build to Crashlytics Beta
-### android deploy
+### android submit_unity_beta
 ```
-fastlane android deploy
+fastlane android submit_unity_beta
 ```
-Deploy a new version to the Google Play
+
 
 ----
 

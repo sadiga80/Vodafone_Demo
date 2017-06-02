@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
+import com.crashlytics.android.Crashlytics;
+import io.fabric.sdk.android.Fabric;
 
 /**
  * Created by santhoshadigau on 27/07/16.
@@ -16,6 +18,7 @@ public class Splash extends AppCompatActivity {
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
+        Fabric.with(this, new Crashlytics());
         setContentView(R.layout.splash);
 
         /* New Handler to start the Menu-Activity

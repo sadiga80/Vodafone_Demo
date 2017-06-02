@@ -51,10 +51,10 @@ platform :android do
 
   lane :submit_unity_beta do
        crashlytics(
-         emails: "santhosh.adiga@accionlabs.com",
-         apk_path: "app/build/outputs/apk/app-debug.apk"
-         api_token: " d2134a1a1eeb3d5d814cfaf373e2632dc5ed5761",
-             build_secret: " 2ce65a5de94b6d84a80b1d8b8168358db6764e87da518295cc48d56298c80089"
+         emails: "ramesh.narasimhan@accionlabs.com",
+         apk_path: "app/build/outputs/apk/app-debug.apk",
+         api_token: "d2134a1a1eeb3d5d814cfaf373e2632dc5ed5761",
+         build_secret: "2ce65a5de94b6d84a80b1d8b8168358db6764e87da518295cc48d56298c80089"
 
        )
     end
